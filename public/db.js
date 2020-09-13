@@ -51,7 +51,7 @@ function checkDatabase() {
           "Content-Type": "application/json"
         }
       })
-      .then(response => response.json())
+      // .then(response => response.json())
       .then(() => {
         // if successful, open a transaction on your pending db
         const transaction = db.transaction(["pending"], "readwrite");
@@ -60,7 +60,9 @@ function checkDatabase() {
         const store = transaction.objectStore("pending");
 
         // clear all items in your store
+        console.log("Clearing store");
         store.clear();
+        console.log("Done clearing store");
       });
     }
   };
