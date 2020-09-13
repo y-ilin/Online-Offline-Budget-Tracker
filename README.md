@@ -19,7 +19,7 @@ npm i
 ```
 
 ## Usage
-Deployed application link [here](https://y-ilin.github.io/Online-Offline-Budget-Tracker/)
+Find the deployed application [here](https://safe-dusk-75030.herokuapp.com/)!
 
 The application will look something like this:
 ![Application Screenshot](./public/application-screenshot.png)
