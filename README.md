@@ -7,6 +7,7 @@
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
+- [Questions](#questions)
 
 ## Description
 A budget tracker that has offline access and functionality, giving users the ability to view their tracker and also add expenses and deposits even without a connection. When users come back online, any data they entered while offline will automatically be sent to the server, giving a seamless experience as if they were never disconnected.
@@ -30,3 +31,6 @@ Licensed under the MIT License.
 
 ## Contributing
 To contribute directly to the code base, please see this [How to Contribute](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) document.
+
+## Questions
+If you have any questions or want to have a chat about this project, contact me at yilinlee19@gmail.com or on [LinkedIn](https://www.linkedin.com/in/yi-lin-lee/) 😋
